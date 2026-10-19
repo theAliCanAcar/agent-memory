@@ -1,0 +1,23 @@
+{
+  "name": "agent-memory",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Three-level memory: working state, session history, long-term semantic memory (Supabase/pgvector or in-memory).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "agent-tools": "github:theAliCanAcar/agent-tools#main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theAliCanAcar/agent-memory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theAliCanAcar/agent-memory/issues"
+  },
+  "homepage": "https://github.com/theAliCanAcar/agent-memory#readme"
+}
